@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Delegation Demo</title>
+  <style>
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      padding: 10px;
+      margin: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <ul id="itemList">
+    <li>
+      Item 1
+      <button class="delete-btn">Delete</button>
+    </li>
+    <li>
+      Item 2
+      <button class="delete-btn">Delete</button>
+    </li>
+    <!-- More list items can be added dynamically -->
+  </ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
